@@ -1,0 +1,94 @@
+@import url('http://fonts.googleapis.com/css2?family=Ranchers@display=swap');
+
+
+body{
+    background-image: url("./assets/Game\ Image.png");
+    display: flex;
+  align-items: flex-start;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 100vh;
+  background-repeat:no-repeat;
+}
+.container {
+    font-family: 'Ranchers', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    line-height: 1.6;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 5em;
+    color: #FECB00;
+    width: 400px;
+    text-align: center;
+    text-shadow:
+        -5px -5px 0 white, 5px -5px 0 white, -5px 5px 0 white, 5px 5px 0 white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+#input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input {
+    margin: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.3em;
+    height: 2.5em;
+}
+
+#message {
+    font-size: 1.5em;
+    background-color: #296fe0;
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-align: center;
+    display: none;
+}
+
+#lives-text {
+    color: white;
+}
+
+img {
+    width: 60%;
+    max-width: 300px;
+}
+
+.button {
+    background-color: #FE8500;
+    margin: 30px 0;
+    border-radius: 4px;
+    min-width: 100px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(117, 50, 205);
+    border: 2px solid rgb(222, 245, 244);
+    padding: 30px 20px;
+    position:absolute;
+    margin-top: 650px;
+    margin-left: 1450px;
+    }

@@ -1,0 +1,36 @@
+/* GLOBAL STYLES */
+body{
+    background-image: url("./assets/Video\ Image.png");
+}
+
+.video{
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+.h2{
+    color: whitesmoke;
+    margin-top: -300px;
+    margin-left: 850px;
+}
+
+h1{
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 530px;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(117, 50, 205);
+  border: 2px solid rgb(245, 222, 222);
+  padding: 30px 20px;
+  position:absolute;
+  margin-top: 40px;
+  margin-left: 1450px;
+  }
+
+
